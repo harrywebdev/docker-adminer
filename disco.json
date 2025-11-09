@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "services": {
+    "web": {
+      "port": 8080,
+      "image": "v5"
+    }
+  },
+  "images": {
+    "v5": {
+      "dockerfile": "5/Dockerfile",
+      "context": "5/."
+    }
+  }
+}
